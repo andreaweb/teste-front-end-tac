@@ -1,22 +1,27 @@
-# Teste Front-end TAC
+﻿Installation (versão em Português abaixo)
 
-Olá! Bem vindo ao teste front-end da Toque a Campainha.
+PS: The project will work without this, as long as you don't want to change its code.
 
-Desenvolva uma aplicação que tenha:
+The steps below assume you already downloaded the project.
 
-- Um formulário que consuma a API do Github (https://developer.github.com/v3/) e retorne alguma informação de sua escolha: (ex: listar repositórios de um usuário, listar issues de um repositório, listar contribuidores de um repositório, etc.)
+1 - You must have Node.js in your computer (if you have npm installed, you already have it). Download it at nodejs.org/en/download
+2 - Install npm by typing in your terminal: npm install
+3 - Install gulp: npm install --save-dev gulp
+4 - If you wish to run gulp directly (without npm), type on your terminal: npm install --global gulp-cli
+5 - Finish by installing gulp dependencies:
+npm install --save-dev gulp-minify
+npm install gulp-sass --save-dev
 
-- layout responsivo (não precisa ser mega-elaborado, apenas estar bem estruturado).
+Instalação
 
-PLUS: Também gostaríamos de ver você usando algumas coisinhas bacanas como:
+OBS: O projeto funciona sem a instalação, desde que não se altere o código.
 
-- Algum pré-processador CSS
-- Algum task-runner (Grunt ou Gulp)
+Os passos a seguir assumem que você já baixou o projeto.
 
-## Como Participar
-
-Dê um fork nesse repositório e crie um pull request com a sua resposta.
-
-No README devem estar as instruções de como nós instalamos e rodamos sua aplicação.
-
-Boa sorte! ;)
+1 - Você deve ter Node.js no seu computador (se você tiver npm instalado, já tem Node.js). Baixe-o em nodejs.org/en/download
+2 - Instale npm no terminal com: npm install
+3 - Instale gulp: npm install --save-dev gulp
+4 - Se desejar rodar o gulp diretamente (sem npm), rode também: npm install --global gulp-cli
+5 - Finalize instalando as dependências do gulp:
+npm install --save-dev gulp-minify
+npm install gulp-sass --save-dev

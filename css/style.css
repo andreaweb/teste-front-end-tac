@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: 'Ubuntu', sans-serif; }
+
+body {
+  min-width: 280px; }
+
+section {
+  padding: 2em;
+  min-height: 30vh;
+  padding-top: 6em; }
+
+p {
+  font-size: 1.6em;
+  margin-right: 4em;
+  margin-bottom: 1em; }
+
+span {
+  font-size: 1em; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.5em; }
+
+label {
+  margin-top: 21vh;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 0.5em; }
+
+input, button {
+  border-radius: 10px;
+  padding: 1em;
+  border: none;
+  font-size: 1.6em;
+  width: 36vw;
+  display: block;
+  margin: 0 auto; }
+
+button {
+  width: 21vw; }
+  button:hover {
+    background-color: black;
+    color: #ddd; }
+
+.numbers,
+.avatar {
+  display: flex; }
+
+section div {
+  flex-grow: 1; }
+
+.face {
+  flex-grow: 0; }
+  .face img {
+    max-width: 40vw; }
+
+.username {
+  border-left: 5px solid black;
+  margin-left: 5em; }
+
+section:nth-child(0) {
+  background-color: color; }
+
+section:nth-child(1) {
+  background-color: #352350; }
+
+section:nth-child(2) {
+  background-color: #DB2464; }
+
+section:nth-child(3) {
+  background-color: #CB2402; }
+
+section:nth-child(4) {
+  background-color: #B8DC3C; }
+
+section:nth-child(5) {
+  background-color: #4C49A2; }
+
+@media screen and (max-width: 500px) {
+  .numbers,
+  .avatar {
+    display: block; }
+  .face img {
+    max-width: 80vw; }
+  .username {
+    margin-left: 0; }
+  label {
+    margin-top: 5vh; }
+  input {
+    font-size: 1.2em;
+    width: 60vw; }
+  button {
+    font-size: 1.2em; }
+  section {
+    min-height: 20vh; } }
+
+@media screen and (max-width: 800px) {
+  .username {
+    border: none; } }

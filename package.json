@@ -1,0 +1,30 @@
+{
+  "name": "toque-a-campainha-gitapi",
+  "version": "1.0.0",
+  "description": "A tool to efficiently stalk anyone with a github account!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontendtac/teste-front-end-tac.git"
+  },
+  "keywords": [
+    "github",
+    "git",
+    "api"
+  ],
+  "author": "Andrea Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontendtac/teste-front-end-tac/issues"
+  },
+  "homepage": "https://github.com/frontendtac/teste-front-end-tac#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-minify": "0.0.14",
+    "gulp-sass": "^2.3.2"
+  }
+}
